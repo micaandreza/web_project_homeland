@@ -5,7 +5,7 @@
 height: 482px;
 }
 
-.intro-title{
+.intro__title{
 width: 830px;
 height: 116px;
 font-weight: 900;
@@ -13,7 +13,7 @@ font-size: 54px;
 line-height: 58px;
 
 }
-.intro-subtitle{
+.intro__subtitle{
 width: 738px;
 height: 68px;
 
@@ -22,7 +22,7 @@ font-size: 24px;
 line-height: 34px;
 
 }
-.intro-name{
+.intro__name{
 width: 732px;
 height: 34px;
 font-weight: 400;
@@ -31,7 +31,7 @@ line-height: 34px;
 text-align: right;
 
 }
-.intro-text{
+.intro__text{
 width: 722px;
 height: 182px;
 font-weight: 400;
@@ -47,7 +47,7 @@ line-height: 163%;
         margin: auto;
         margin-bottom: 128px;
       }
-   .intro-title{
+   .intro__title{
 width: 707px;
 height: 98px;
 font-weight: 900;
@@ -55,7 +55,7 @@ font-size: 45px;
 line-height: 49px;
 
 }
-.intro-subtitle{
+.intro__subtitle{
 width: 720px;
 height: 102px;
 font-weight: 400;
@@ -63,7 +63,7 @@ font-size: 24px;
 line-height: 34px;
 
 }
-.intro-name{
+.intro__name{
 width: 720px;
 height: 34px;
 font-weight: 400;
@@ -72,7 +72,7 @@ line-height: 34px;
 text-align: right;
 
 }
-.intro-text{
+.intro__text{
   width: 720px;
 height: 182px;
 font-weight: 400;
@@ -88,7 +88,7 @@ line-height: 163%;
 height: 878px;
 
   }
-   .intro-title{
+   .intro__title{
 width: 288px;
 height: 140px;
 font-weight: 900;
@@ -96,7 +96,7 @@ font-size: 32px;
 line-height: 35px;
 
 }
-.intro-subtitle{
+.intro__subtitle{
 width: 288px;
 height: 180px;
 font-weight: 400;
@@ -104,7 +104,7 @@ font-size: 24px;
 line-height: 30px;
 
 }
-.intro-name{
+.intro__name{
 width: 288px;
 height: 34px;
 font-weight: 400;
@@ -113,7 +113,7 @@ line-height: 34px;
 text-align: right;
 
 }
-.intro-text{
+.intro__text{
   width: 288px;
 height: 442px;
 font-weight: 400;
