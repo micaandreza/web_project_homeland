@@ -1,17 +1,15 @@
 .intro {
   padding: 20px;
   margin: auto;
-  width: 830px;
-height: 482px;
+  width: 984px;
 }
 
 .intro__title{
 width: 830px;
-height: 116px;
 font-weight: 900;
 font-size: 54px;
 line-height: 58px;
-
+margin-bottom: 40px;
 }
 .intro__subtitle{
 width: 738px;
