@@ -72,7 +72,7 @@
 
 @media (max-width: 768px) {
   .place {
-    margin-left: 24px;
+    margin: 0 24px;
     grid-template-columns: 1fr;
   }
   .place__title {
@@ -93,7 +93,20 @@
     max-width: 340px;
   }
 }
-
+@media(max-width: 544px){
+  .place {
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "button";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+   margin: 0 16px;
+  }
+}
 @media (max-width: 320px) {
   .place {
     grid-template-areas:
@@ -105,8 +118,7 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     gap: 20px;
-    margin-bottom: 0;
-    margin-left: 0;
+   margin: 0 16px;
   }
   .place__photo {
     max-width: 100%;

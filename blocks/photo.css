@@ -5,18 +5,16 @@
   max-width: 1184px;
   margin: 0 auto;
   margin-top: 118px;
-  left: 48px;
 }
 
+.photo-grid__image {
+    max-width: 100%;
+  }
 @media (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 720px;
     margin-top: 64px;
-    left: 24px;
-  }
-  .photo-grid__image {
-    width: 100%;
   }
 }
 
@@ -24,9 +22,5 @@
   .photo-grid {
     max-width: 288px;
     margin-top: 38px;
-    left: 16px;
-  }
-  .photo-grid__image {
-    width: 100%;
   }
 }

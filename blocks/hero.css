@@ -1,11 +1,12 @@
 .hero {
   gap: 25px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+  max-width: 984px;
 }
 .hero__title {
   font-size: 96px;
@@ -14,7 +15,7 @@
 }
 
 .hero__subtitle {
-  width: 720px;
+  max-width: 720px;
   font-weight: 400;
   line-height: 36px;
   font-size: 30px;
@@ -24,8 +25,7 @@
   margin-bottom: 30px;
 }
 .hero__image {
-  width: 984px;
-  height: 615px;
+  width: 100%;
   filter: grayscale(100%);
   background-color: #000000;
 }
@@ -39,10 +39,6 @@
     font-size: 30px;
   }
 
-  .hero__image {
-    width: 768px;
-    height: 480px;
-  }
 }
 @media (max-width: 320px) {
   .hero {
@@ -52,7 +48,6 @@
   .hero__title {
     max-width: 228px;
     font-size: 40px;
-    height: 88px;
     line-height: 44px;
   }
   .hero__subtitle {
@@ -60,8 +55,4 @@
     font-size: 16px;
   }
 
-  .hero__image {
-    width: 320px;
-    height: 200px;
-  }
 }

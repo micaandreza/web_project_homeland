@@ -3,20 +3,10 @@
   margin-top: 128px;
 }
 .footer__copyright {
-  margin: auto;
-  width: 166px;
-  height: 16px;
-  left: 556px;
+  margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .footer__copyright {
-    width: 166px;
-    height: 16px;
-    left: 300px;
-    text-align: right;
-  }
-}
